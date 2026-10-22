@@ -1,0 +1,23 @@
+/* Project-card refinements: distinct placeholders, explicit labels, and compact actions. */
+.project-placeholder-art{height:100%;position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 75% 25%,var(--mesh-b),transparent 45%),radial-gradient(ellipse at 25% 85%,var(--mesh-a),transparent 52%),var(--bg-soft)}
+.project-placeholder-art::before{position:absolute;inset:0;content:"";opacity:.32;background-image:radial-gradient(color-mix(in srgb,var(--cyan) 45%,transparent) .7px,transparent .8px);background-size:16px 16px;mask-image:linear-gradient(120deg,transparent,black 35%,black 78%,transparent)}
+.thumb-window{position:relative;z-index:1;width:75%;height:72%;overflow:hidden;border:1px solid var(--line-strong);border-radius:8px;background:color-mix(in srgb,var(--surface) 90%,transparent);box-shadow:var(--shadow-soft);transform:perspective(600px) rotateY(-5deg);transition:transform .35s,border-color .35s}
+.project-card:hover .thumb-window{transform:perspective(600px) rotateY(0) translateY(-3px);border-color:color-mix(in srgb,var(--cyan) 54%,var(--line))}
+.thumb-top{height:26px;display:flex;align-items:center;gap:5px;padding:0 9px;border-bottom:1px solid var(--line);font:8px var(--mono);color:var(--muted)}
+.thumb-top i{width:5px;height:5px;border-radius:50%;background:var(--cyan);opacity:.8}.thumb-top i:nth-child(2){background:var(--violet)}.thumb-top i:nth-child(3){background:var(--blue)}.thumb-top span{overflow:hidden;margin-left:5px;white-space:nowrap;text-overflow:ellipsis}
+.thumb-content{display:flex;flex-direction:column;gap:9px;padding:17px 15px}.thumb-content b{width:58%;height:9px;margin-bottom:3px;border-radius:5px;background:linear-gradient(90deg,var(--cyan),var(--violet))}.thumb-content i{width:82%;height:4px;border-radius:4px;background:color-mix(in srgb,var(--text) 18%,transparent)}.thumb-content i:nth-of-type(2){width:66%}.thumb-content i:nth-of-type(3){width:72%}.thumb-content em{width:56px;height:15px;margin-top:3px;border:1px solid color-mix(in srgb,var(--cyan) 45%,transparent);border-radius:4px;background:color-mix(in srgb,var(--cyan) 12%,transparent)}
+.project-card:nth-child(2) .thumb-content b{background:linear-gradient(90deg,var(--violet),var(--blue))}.project-card:nth-child(2) .thumb-content em{border-color:color-mix(in srgb,var(--violet) 55%,transparent);background:color-mix(in srgb,var(--violet) 13%,transparent)}
+.thumb-caption{position:absolute;right:12px;bottom:9px;z-index:2;color:var(--muted);font:7px var(--mono);letter-spacing:.03em}
+.project-links{gap:8px}.project-links .button{min-height:35px;padding-inline:11px;gap:8px;font-size:8px}.project-links .button span{font-size:11px}.project-detail{display:flex;flex-direction:column}.project-detail>.tag-list{margin-top:14px}.project-links{margin-top:auto;padding-top:14px}
+.project-links .button-primary{color:#06131a}.project-links .button-secondary{color:var(--text)}
+@media(max-width:700px){.project-links .button{flex:1;min-width:130px}.thumb-window{width:78%}}
+
+.project-media{height:auto;aspect-ratio:16/9;isolation:isolate;border-radius:var(--radius) var(--radius) 0 0;background:linear-gradient(135deg,var(--bg-soft),var(--surface-raised))}
+.project-image{display:block;width:100%;height:100%;object-fit:cover;transition:transform .55s cubic-bezier(.2,.7,.2,1),filter .35s}
+.project-card:hover .project-image{transform:scale(1.045);filter:saturate(1.08)}
+.project-image-caption{position:absolute;left:10px;bottom:10px;z-index:2;padding:5px 8px;border:1px solid rgba(202,221,244,.22);border-radius:4px;background:rgba(6,12,23,.78);color:#e9f1ff;font:8px/1.35 var(--mono);letter-spacing:.025em;backdrop-filter:blur(8px);transition:opacity .25s,transform .25s}
+.project-card:hover .project-image-caption{transform:translateY(3px);opacity:.94}
+.project-category{top:10px;right:10px;left:auto}
+.project-placeholder-art{aspect-ratio:16/9}
+@media(max-width:700px){.project-media{height:auto}.project-image-caption{font-size:7px}}
+@media(prefers-reduced-motion:reduce){.project-image,.project-image-caption{transition:none}.project-card:hover .project-image{transform:none}}

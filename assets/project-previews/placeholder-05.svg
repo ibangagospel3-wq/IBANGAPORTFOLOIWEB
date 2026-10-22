@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Coming soon project preview five</title>
+  <desc id="desc">Original coral, violet, and navy abstract artwork reserved for a future project, not a project screenshot.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#21112a"/><stop offset="1" stop-color="#17243e"/></linearGradient><linearGradient id="g" x2="1"><stop stop-color="#ff9a8a"/><stop offset=".52" stop-color="#b27dff"/><stop offset="1" stop-color="#55dff0"/></linearGradient><radialGradient id="r"><stop stop-color="#bc548d" stop-opacity=".5"/><stop offset="1" stop-color="#bc548d" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="780" cy="400" r="490" fill="url(#r)"/>
+  <rect x="540" y="230" width="520" height="330" rx="44" fill="#ffffff" fill-opacity=".045" stroke="url(#g)" stroke-width="4" transform="rotate(-8 800 395)"/>
+  <rect x="590" y="280" width="520" height="330" rx="44" fill="#ffffff" fill-opacity=".065" stroke="#9e9bcc" stroke-opacity=".45" stroke-width="3" transform="rotate(7 850 445)"/>
+  <path d="m710 415 92 90 176-190" fill="none" stroke="url(#g)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="800" y="720" text-anchor="middle" fill="#fff0f4" font-family="Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="5">ADD YOUR PROJECT</text>
+  <text x="800" y="780" text-anchor="middle" fill="#c9b7d0" font-family="Arial,sans-serif" font-size="21" letter-spacing="3">A PLACE FOR YOUR NEXT IDEA</text>
+  <text x="70" y="850" fill="#b9a2c0" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">ORIGINAL PLACEHOLDER ARTWORK / NOT A SCREENSHOT</text>
+</svg>

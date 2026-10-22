@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Coming soon project preview three</title>
+  <desc id="desc">Original abstract violet and blue artwork reserved for a future project, not a project screenshot.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#17102e"/><stop offset="1" stop-color="#192847"/></linearGradient><linearGradient id="g" x2="1"><stop stop-color="#a77dff"/><stop offset="1" stop-color="#51dcf0"/></linearGradient><radialGradient id="r"><stop stop-color="#8b67ed" stop-opacity=".7"/><stop offset="1" stop-color="#8b67ed" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="810" cy="450" r="440" fill="url(#r)"/>
+  <circle cx="800" cy="420" r="220" fill="none" stroke="url(#g)" stroke-width="4" opacity=".78"/><circle cx="800" cy="420" r="170" fill="none" stroke="#a8a1ff" stroke-width="2" stroke-dasharray="14 20" opacity=".6"/>
+  <path d="M800 220 975 520H625Z" fill="none" stroke="url(#g)" stroke-width="8" stroke-linejoin="round"/><circle cx="800" cy="420" r="32" fill="#75e3f1"/>
+  <text x="800" y="730" text-anchor="middle" fill="#f4f1ff" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="5">COMING SOON</text>
+  <text x="800" y="790" text-anchor="middle" fill="#b9b0d7" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">YOUR PROJECT GOES HERE</text>
+  <text x="70" y="850" fill="#aa9ecb" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">ORIGINAL PLACEHOLDER ARTWORK / NOT A SCREENSHOT</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Coming soon project preview four</title>
+  <desc id="desc">Original cyan and navy geometric artwork reserved for a future project, not a project screenshot.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071e2b"/><stop offset="1" stop-color="#102943"/></linearGradient><linearGradient id="g" x2="1" y2="1"><stop stop-color="#35d9eb"/><stop offset="1" stop-color="#6d9cff"/></linearGradient><radialGradient id="r"><stop stop-color="#188aa7" stop-opacity=".58"/><stop offset="1" stop-color="#188aa7" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="980" cy="390" r="520" fill="url(#r)"/>
+  <path d="M450 300 800 130l350 170v260L800 730 450 560Z" fill="none" stroke="url(#g)" stroke-width="7"/><path d="m450 300 350 190 350-190M800 490v240" fill="none" stroke="#72e3ec" stroke-opacity=".7" stroke-width="4"/>
+  <circle cx="800" cy="490" r="88" fill="url(#g)" opacity=".84"/><circle cx="800" cy="490" r="35" fill="#092333"/>
+  <text x="800" y="810" text-anchor="middle" fill="#ecfbff" font-family="Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="5">PROJECT IN PROGRESS</text>
+  <text x="70" y="850" fill="#8cb3c5" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">ORIGINAL PLACEHOLDER ARTWORK / NOT A SCREENSHOT</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Coming soon project preview six</title>
+  <desc id="desc">Original mint and deep-blue abstract artwork reserved for a future project, not a project screenshot.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09251f"/><stop offset="1" stop-color="#122c43"/></linearGradient><linearGradient id="g" x2="1" y2="1"><stop stop-color="#77f0bf"/><stop offset="1" stop-color="#46b9f4"/></linearGradient><radialGradient id="r"><stop stop-color="#2baf8d" stop-opacity=".5"/><stop offset="1" stop-color="#2baf8d" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="800" cy="400" r="500" fill="url(#r)"/>
+  <path d="M540 550c0-190 130-330 260-330s260 140 260 330" fill="none" stroke="url(#g)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M620 550v-95c0-120 76-205 180-205s180 85 180 205v95" fill="#ffffff" fill-opacity=".06" stroke="#9af3d0" stroke-opacity=".8" stroke-width="4"/>
+  <rect x="735" y="420" width="130" height="170" rx="24" fill="url(#g)"/><circle cx="800" cy="485" r="16" fill="#0b2c32"/><path d="M800 500v38" stroke="#0b2c32" stroke-width="12" stroke-linecap="round"/>
+  <text x="800" y="715" text-anchor="middle" fill="#effff7" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="5">COMING SOON</text>
+  <text x="70" y="850" fill="#9fc8b9" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">ORIGINAL PLACEHOLDER ARTWORK / NOT A SCREENSHOT</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Coming soon project preview seven</title>
+  <desc id="desc">Original cobalt and electric-blue abstract artwork reserved for a future project, not a project screenshot.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a3b"/><stop offset="1" stop-color="#151b35"/></linearGradient><linearGradient id="g" x2="1"><stop stop-color="#46c9fa"/><stop offset="1" stop-color="#9b7bff"/></linearGradient><radialGradient id="r"><stop stop-color="#465feb" stop-opacity=".55"/><stop offset="1" stop-color="#465feb" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="830" cy="410" r="490" fill="url(#r)"/>
+  <path d="m800 180 250 145v290L800 760 550 615V325Z" fill="#ffffff" fill-opacity=".035" stroke="url(#g)" stroke-width="5"/>
+  <path d="M800 280v180m0 0-140 84m140-84 140 84" fill="none" stroke="#b9caff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="800" cy="265" r="42" fill="url(#g)"/><circle cx="650" cy="555" r="42" fill="#6c91ff"/><circle cx="950" cy="555" r="42" fill="#aa83ff"/>
+  <text x="800" y="810" text-anchor="middle" fill="#f3f5ff" font-family="Arial,sans-serif" font-size="50" font-weight="700" letter-spacing="5">ADD YOUR PROJECT</text>
+  <text x="70" y="850" fill="#a6b3db" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">ORIGINAL PLACEHOLDER ARTWORK / NOT A SCREENSHOT</text>
+</svg>

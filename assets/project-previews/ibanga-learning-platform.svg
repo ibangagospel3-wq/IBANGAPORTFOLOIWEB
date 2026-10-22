@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">ibanga.ai-dev.tools.com illustrative preview</title>
+  <desc id="desc">An original coding workspace concept showing editor panels and a live preview. This is not a screenshot.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111027"/><stop offset="1" stop-color="#172c4b"/></linearGradient>
+    <linearGradient id="accent" x2="1"><stop stop-color="#64e6df"/><stop offset="1" stop-color="#a77dff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8264ff" stop-opacity=".38"/><stop offset="1" stop-color="#8264ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="1240" cy="190" r="490" fill="url(#glow)"/>
+  <rect x="125" y="105" width="1350" height="690" rx="28" fill="#0b1423" stroke="#a1acd1" stroke-opacity=".3" stroke-width="3"/>
+  <path d="M125 185h1350" stroke="#a1acd1" stroke-opacity=".2" stroke-width="2"/>
+  <circle cx="170" cy="145" r="10" fill="#ff7890"/><circle cx="205" cy="145" r="10" fill="#f5c16c"/><circle cx="240" cy="145" r="10" fill="#55dbc4"/>
+  <text x="300" y="155" fill="#e8ecff" font-family="Arial,sans-serif" font-size="24" font-weight="700">IBANGA CODE LAB</text>
+  <rect x="165" y="220" width="590" height="515" rx="18" fill="#111d31" stroke="#526481" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="790" y="220" width="640" height="515" rx="18" fill="#f4f7ff"/>
+  <path d="M165 282h590" stroke="#526481" stroke-opacity=".42" stroke-width="2"/>
+  <text x="205" y="262" fill="#b8c6dd" font-family="Arial,sans-serif" font-size="19">index.html</text>
+  <g font-family="monospace" font-size="23">
+    <text x="205" y="340" fill="#8f9cb7">01</text><text x="260" y="340" fill="#d99aff">&lt;main&gt;</text>
+    <text x="205" y="395" fill="#8f9cb7">02</text><text x="295" y="395" fill="#75e5dc">&lt;h1&gt;</text><text x="395" y="395" fill="#f5d88c">Learn by making</text>
+    <text x="205" y="450" fill="#8f9cb7">03</text><text x="295" y="450" fill="#75e5dc">&lt;/h1&gt;</text>
+    <text x="205" y="505" fill="#8f9cb7">04</text><text x="295" y="505" fill="#75e5dc">&lt;button&gt;</text><text x="415" y="505" fill="#f5d88c">Run code</text>
+    <text x="205" y="560" fill="#8f9cb7">05</text><text x="295" y="560" fill="#75e5dc">&lt;/button&gt;</text>
+    <text x="205" y="615" fill="#8f9cb7">06</text><text x="260" y="615" fill="#d99aff">&lt;/main&gt;</text>
+  </g>
+  <text x="850" y="315" fill="#26324a" font-family="Arial,sans-serif" font-size="23" font-weight="700">Live preview</text>
+  <rect x="850" y="355" width="520" height="2" fill="#d6ddec"/>
+  <text x="870" y="445" fill="#283955" font-family="Arial,sans-serif" font-size="44" font-weight="700">Build your next idea</text>
+  <text x="870" y="500" fill="#64718a" font-family="Arial,sans-serif" font-size="25">Learn. Practice. Create.</text>
+  <rect x="870" y="545" width="180" height="58" rx="12" fill="url(#accent)"/>
+  <text x="910" y="583" fill="#111b30" font-family="Arial,sans-serif" font-size="21" font-weight="700">Run code</text>
+  <text x="125" y="850" fill="#a5b0d0" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">ILLUSTRATIVE PREVIEW / NOT A SCREENSHOT</text>
+</svg>
